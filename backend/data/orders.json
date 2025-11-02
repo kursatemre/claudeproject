@@ -1,0 +1,107 @@
+{
+  "orders": [
+    {
+      "id": "order_1",
+      "tableNumber": 5,
+      "customerName": "Ahmet Yılmaz",
+      "items": [
+        {
+          "productId": "prod_5",
+          "productName": "Akhisar Köfte Porsiyon",
+          "quantity": 2,
+          "price": 165.00
+        },
+        {
+          "productId": "prod_21",
+          "productName": "Türk Kahvesi",
+          "quantity": 2,
+          "price": 35.00
+        }
+      ],
+      "totalPrice": 400.00,
+      "status": "Hazırlanıyor",
+      "createdAt": "2025-11-02T14:30:00Z",
+      "updatedAt": "2025-11-02T14:35:00Z",
+      "notes": "Köfteler az pişmiş olsun"
+    },
+    {
+      "id": "order_2",
+      "tableNumber": 3,
+      "customerName": "Ayşe Demir",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productName": "Serpme Kahvaltı",
+          "quantity": 1,
+          "price": 185.00
+        },
+        {
+          "productId": "prod_22",
+          "productName": "Çay (Fincan/Demlik)",
+          "quantity": 2,
+          "price": 15.00
+        }
+      ],
+      "totalPrice": 215.00,
+      "status": "Yeni",
+      "createdAt": "2025-11-02T14:45:00Z",
+      "updatedAt": "2025-11-02T14:45:00Z",
+      "notes": ""
+    },
+    {
+      "id": "order_3",
+      "tableNumber": 7,
+      "customerName": "Mehmet Kaya",
+      "items": [
+        {
+          "productId": "prod_9",
+          "productName": "Kuzu Tandır",
+          "quantity": 1,
+          "price": 225.00
+        },
+        {
+          "productId": "prod_13",
+          "productName": "Çoban Salata",
+          "quantity": 1,
+          "price": 55.00
+        },
+        {
+          "productId": "prod_24",
+          "productName": "Ayran",
+          "quantity": 1,
+          "price": 25.00
+        }
+      ],
+      "totalPrice": 305.00,
+      "status": "Hazır",
+      "createdAt": "2025-11-02T13:15:00Z",
+      "updatedAt": "2025-11-02T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "id": "order_4",
+      "tableNumber": 12,
+      "customerName": "Zeynep Arslan",
+      "items": [
+        {
+          "productId": "prod_17",
+          "productName": "Künefe",
+          "quantity": 2,
+          "price": 95.00
+        },
+        {
+          "productId": "prod_21",
+          "productName": "Türk Kahvesi",
+          "quantity": 2,
+          "price": 35.00
+        }
+      ],
+      "totalPrice": 260.00,
+      "status": "Tamamlandı",
+      "createdAt": "2025-11-02T12:30:00Z",
+      "updatedAt": "2025-11-02T13:00:00Z",
+      "notes": "Künefe çok sıcak gelsin"
+    }
+  ],
+  "nextOrderId": 5
+}

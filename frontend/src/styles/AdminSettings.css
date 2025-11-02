@@ -1,0 +1,44 @@
+.settings-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-page h2 {
+  color: var(--secondary-color);
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.settings-page h3 {
+  color: var(--secondary-color);
+  margin: 25px 0 15px 0;
+  font-size: 18px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.settings-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-page .form-group input[type="color"] {
+  width: 60px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .settings-page h2 {
+    font-size: 20px;
+  }
+
+  .settings-page h3 {
+    font-size: 16px;
+  }
+}
