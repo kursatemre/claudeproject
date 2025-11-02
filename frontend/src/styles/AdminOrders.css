@@ -1,0 +1,136 @@
+.orders-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orders-header {
+  padding: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  padding: 25px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
+.order-info h3 {
+  color: var(--secondary-color);
+  margin: 0 0 8px 0;
+  font-size: 20px;
+}
+
+.order-info p {
+  color: var(--gray-dark);
+  margin: 0 0 5px 0;
+  font-size: 14px;
+}
+
+.order-info small {
+  color: var(--gray);
+  font-size: 12px;
+}
+
+.order-status {
+  text-align: right;
+}
+
+.order-total {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 10px 0 0 0;
+}
+
+.order-items {
+  margin-bottom: 20px;
+}
+
+.order-items h4 {
+  color: var(--secondary-color);
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.order-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order-items li {
+  padding: 10px;
+  background-color: var(--background-color);
+  border-radius: 5px;
+  margin-bottom: 8px;
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.order-notes {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #fff3cd;
+  border-left: 3px solid var(--warning-color);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.order-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.no-orders {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--gray-dark);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .order-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .order-status {
+    text-align: left;
+  }
+
+  .order-actions {
+    flex-direction: column;
+  }
+
+  .order-actions button {
+    width: 100%;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+  }
+
+  .filter-buttons button {
+    width: 100%;
+  }
+}

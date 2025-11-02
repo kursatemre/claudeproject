@@ -1,0 +1,35 @@
+{
+  "restaurant": {
+    "name": "Balık Hardal Kitchen",
+    "slogan": "Lezzetli yemeklerimizi keşfedin!",
+    "logo": "/images/logo.png",
+    "description": "Modern mutfak anlayışı ile geleneksel Türk lezzetlerini buluşturan restoranımızda, ailenizle birlikte keyifli anlar yaşayabilirsiniz.",
+    "address": "Atatürk Caddesi No:123, İzmir",
+    "phone": "+90 232 555 0123",
+    "email": "info@balikhardal.com",
+    "workingHours": {
+      "weekdays": "08:00 - 23:00",
+      "weekend": "08:00 - 00:00"
+    },
+    "socialMedia": {
+      "instagram": "@balikhardalkitchen",
+      "facebook": "balikhardalkitchen",
+      "twitter": "@balikhardal"
+    }
+  },
+  "theme": {
+    "primaryColor": "#d4521f",
+    "secondaryColor": "#2c3e50",
+    "accentColor": "#e67e22",
+    "backgroundColor": "#f8f9fa",
+    "textColor": "#333333",
+    "fontFamily": "Segoe UI, Roboto, sans-serif"
+  },
+  "admin": {
+    "username": "admin",
+    "passwordHash": "$2a$10$8K1p/a0dL3LqgoWVpq0fKe7xZyxjLpXV.rLUgqKKxq8hFzH1Q2VzC"
+  },
+  "currency": "₺",
+  "taxRate": 10,
+  "serviceCharge": 0
+}

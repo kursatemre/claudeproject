@@ -1,0 +1,78 @@
+.menu-management {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.tab-btn {
+  padding: 12px 24px;
+  background-color: transparent;
+  border: none;
+  color: var(--text-color);
+  font-weight: 600;
+  border-radius: 5px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.tab-btn:hover {
+  background-color: var(--gray-light);
+}
+
+.tab-btn.active {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.tab-content {
+  background-color: var(--white);
+  padding: 25px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.content-header h2 {
+  color: var(--secondary-color);
+  margin: 0;
+  font-size: 22px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tab-btn {
+    width: 100%;
+    text-align: left;
+  }
+
+  .content-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .content-header button {
+    width: 100%;
+  }
+}

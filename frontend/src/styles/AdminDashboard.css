@@ -1,0 +1,92 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.stat-card {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  padding: 25px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: var(--transition);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.stat-icon {
+  font-size: 48px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-light);
+  border-radius: 50%;
+}
+
+.stat-info h3 {
+  font-size: 14px;
+  color: var(--gray-dark);
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+.stat-card.highlight-new {
+  border-left: 4px solid var(--info-color);
+}
+
+.stat-card.highlight-preparing {
+  border-left: 4px solid var(--warning-color);
+}
+
+.stat-card.highlight-ready {
+  border-left: 4px solid var(--success-color);
+}
+
+.recent-orders h2 {
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card {
+    padding: 20px;
+  }
+
+  .stat-icon {
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .stat-value {
+    font-size: 26px;
+  }
+}

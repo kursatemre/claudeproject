@@ -1,0 +1,312 @@
+{
+  "categories": [
+    {
+      "id": "cat_1",
+      "name": "Kahvaltılıklar",
+      "description": "Günün en önemli öğünü için lezzetli seçenekler",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "cat_2",
+      "name": "Köfteler",
+      "description": "Özel tariflerimizle hazırlanan nefis köftelerimiz",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "cat_3",
+      "name": "Ana Yemekler",
+      "description": "Geleneksel lezzetlerimiz",
+      "order": 3,
+      "active": true
+    },
+    {
+      "id": "cat_4",
+      "name": "Salatalar",
+      "description": "Taze ve sağlıklı seçeneklerimiz",
+      "order": 4,
+      "active": true
+    },
+    {
+      "id": "cat_5",
+      "name": "Tatlılar",
+      "description": "Tatlı damaklara özel lezzetler",
+      "order": 5,
+      "active": true
+    },
+    {
+      "id": "cat_6",
+      "name": "İçecekler",
+      "description": "Serinletici ve ısıtıcı içeceklerimiz",
+      "order": 6,
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "categoryId": "cat_1",
+      "name": "Serpme Kahvaltı",
+      "description": "Peynir çeşitleri, yeşillik, zeytin, reçel, bal, kaymak, tereyağı, simit, açma",
+      "price": 185.00,
+      "image": "/images/serpme-kahvalti.jpg",
+      "active": true,
+      "tags": ["Popüler", "Organik"],
+      "allergens": ["Süt", "Gluten"]
+    },
+    {
+      "id": "prod_2",
+      "categoryId": "cat_1",
+      "name": "Menemen",
+      "description": "Taze domates, biber, soğan ve yumurta ile hazırlanır",
+      "price": 75.00,
+      "image": "/images/menemen.jpg",
+      "active": true,
+      "tags": ["Vejetaryen"],
+      "allergens": ["Yumurta"]
+    },
+    {
+      "id": "prod_3",
+      "categoryId": "cat_1",
+      "name": "Sucuklu Yumurta",
+      "description": "Fermente sucuk ve organik yumurta",
+      "price": 85.00,
+      "image": "/images/sucuklu-yumurta.jpg",
+      "active": true,
+      "tags": ["Acı"],
+      "allergens": ["Yumurta"]
+    },
+    {
+      "id": "prod_4",
+      "categoryId": "cat_1",
+      "name": "Gözleme (Peynirli/Patatesli/Kıymalı)",
+      "description": "El açması hamur ile hazırlanan geleneksel gözlemeler",
+      "price": 65.00,
+      "image": "/images/gozleme.jpg",
+      "active": true,
+      "tags": ["El Yapımı"],
+      "allergens": ["Gluten", "Süt"]
+    },
+    {
+      "id": "prod_5",
+      "categoryId": "cat_2",
+      "name": "Akhisar Köfte Porsiyon",
+      "description": "Dana kıyma, özel baharatlar, kırık bulgur ile hazırlanır. Pilav ve salata ile servis edilir",
+      "price": 165.00,
+      "image": "/images/akhisar-kofte.jpg",
+      "active": true,
+      "tags": ["Popüler", "Şefin Önerisi"],
+      "allergens": ["Gluten"]
+    },
+    {
+      "id": "prod_6",
+      "categoryId": "cat_2",
+      "name": "İnegöl Köfte Porsiyon",
+      "description": "Saf dana eti, özel baharatlar. Pilav ve salata ile",
+      "price": 175.00,
+      "image": "/images/inegol-kofte.jpg",
+      "active": true,
+      "tags": ["Popüler"],
+      "allergens": []
+    },
+    {
+      "id": "prod_7",
+      "categoryId": "cat_2",
+      "name": "İzmir Köfte",
+      "description": "Fırında patates ve domates soslu, kaşarlı köfte",
+      "price": 185.00,
+      "image": "/images/izmir-kofte.jpg",
+      "active": true,
+      "tags": ["Fırın"],
+      "allergens": ["Süt"]
+    },
+    {
+      "id": "prod_8",
+      "categoryId": "cat_2",
+      "name": "Çöp Şiş",
+      "description": "Kuzu bonfile ince doğranmış, közde pişirilir",
+      "price": 195.00,
+      "image": "/images/cop-sis.jpg",
+      "active": true,
+      "tags": ["Izgara", "Şefin Önerisi"],
+      "allergens": []
+    },
+    {
+      "id": "prod_9",
+      "categoryId": "cat_3",
+      "name": "Kuzu Tandır",
+      "description": "Fırında yavaş pişirilmiş kuzu but. Pilav ve közlenmiş sebze ile",
+      "price": 225.00,
+      "image": "/images/kuzu-tandir.jpg",
+      "active": true,
+      "tags": ["Şefin Önerisi", "Özel Tarif"],
+      "allergens": []
+    },
+    {
+      "id": "prod_10",
+      "categoryId": "cat_3",
+      "name": "Tavuk Şinitzel",
+      "description": "Pane edilmiş tavuk göğsü, patates kızartması ve salata ile",
+      "price": 145.00,
+      "image": "/images/tavuk-sinitzel.jpg",
+      "active": true,
+      "tags": [],
+      "allergens": ["Gluten", "Yumurta"]
+    },
+    {
+      "id": "prod_11",
+      "categoryId": "cat_3",
+      "name": "Karışık Izgara",
+      "description": "Tavuk, kuzu, köfte. Pilav ve salata ile",
+      "price": 195.00,
+      "image": "/images/karisik-izgara.jpg",
+      "active": true,
+      "tags": ["Popüler", "Izgara"],
+      "allergens": []
+    },
+    {
+      "id": "prod_12",
+      "categoryId": "cat_3",
+      "name": "Etli Nohut",
+      "description": "Dana kuşbaşı, nohut, soğan, domates ve özel baharatlar",
+      "price": 125.00,
+      "image": "/images/etli-nohut.jpg",
+      "active": true,
+      "tags": ["Ev Yemeği"],
+      "allergens": []
+    },
+    {
+      "id": "prod_13",
+      "categoryId": "cat_4",
+      "name": "Çoban Salata",
+      "description": "Domates, salatalık, biber, soğan, maydanoz, nar ekşisi ve zeytinyağı",
+      "price": 55.00,
+      "image": "/images/coban-salata.jpg",
+      "active": true,
+      "tags": ["Vegan", "Glutensiz"],
+      "allergens": []
+    },
+    {
+      "id": "prod_14",
+      "categoryId": "cat_4",
+      "name": "Mevsim Salata",
+      "description": "Mevsim yeşillikleri, havuç, kırmızı lahana, nar ekşisi sos",
+      "price": 60.00,
+      "image": "/images/mevsim-salata.jpg",
+      "active": true,
+      "tags": ["Vegan", "Glutensiz"],
+      "allergens": []
+    },
+    {
+      "id": "prod_15",
+      "categoryId": "cat_4",
+      "name": "Akdeniz Salatası",
+      "description": "Marul, yeşillik, beyaz peynir, zeytin, domates, salatalık, zeytinyağı sos",
+      "price": 75.00,
+      "image": "/images/akdeniz-salata.jpg",
+      "active": true,
+      "tags": ["Vejetaryen", "Glutensiz"],
+      "allergens": ["Süt"]
+    },
+    {
+      "id": "prod_16",
+      "categoryId": "cat_4",
+      "name": "Tavuklu Sezar Salata",
+      "description": "Izgara tavuk, marul, kruton, parmesan, sezar sos",
+      "price": 95.00,
+      "image": "/images/sezar-salata.jpg",
+      "active": true,
+      "tags": ["Popüler"],
+      "allergens": ["Süt", "Gluten", "Yumurta"]
+    },
+    {
+      "id": "prod_17",
+      "categoryId": "cat_5",
+      "name": "Künefe",
+      "description": "Tel kadayıf, özel peynir, antep fıstığı, şerbet",
+      "price": 95.00,
+      "image": "/images/kunefe.jpg",
+      "active": true,
+      "tags": ["Popüler", "Sıcak"],
+      "allergens": ["Süt", "Gluten"]
+    },
+    {
+      "id": "prod_18",
+      "categoryId": "cat_5",
+      "name": "Fırın Sütlaç",
+      "description": "Fırında karamelize edilmiş geleneksel sütlaç",
+      "price": 65.00,
+      "image": "/images/sutlac.jpg",
+      "active": true,
+      "tags": ["Ev Yapımı"],
+      "allergens": ["Süt", "Gluten"]
+    },
+    {
+      "id": "prod_19",
+      "categoryId": "cat_5",
+      "name": "Baklava",
+      "description": "40 kat yufka, antep fıstığı, tereyağı, şerbet",
+      "price": 85.00,
+      "image": "/images/baklava.jpg",
+      "active": true,
+      "tags": ["Popüler", "El Yapımı"],
+      "allergens": ["Gluten", "Süt", "Yumurta"]
+    },
+    {
+      "id": "prod_20",
+      "categoryId": "cat_5",
+      "name": "Profiterol",
+      "description": "Taze hamur topları, krema, çikolata sosu",
+      "price": 75.00,
+      "image": "/images/profiterol.jpg",
+      "active": true,
+      "tags": [],
+      "allergens": ["Süt", "Gluten", "Yumurta"]
+    },
+    {
+      "id": "prod_21",
+      "categoryId": "cat_6",
+      "name": "Türk Kahvesi",
+      "description": "Geleneksel usulde pişirilmiş Türk kahvesi",
+      "price": 35.00,
+      "image": "/images/turk-kahvesi.jpg",
+      "active": true,
+      "tags": ["Geleneksel"],
+      "allergens": []
+    },
+    {
+      "id": "prod_22",
+      "categoryId": "cat_6",
+      "name": "Çay (Fincan/Demlik)",
+      "description": "Taze demlenmiş çay",
+      "price": 15.00,
+      "image": "/images/cay.jpg",
+      "active": true,
+      "tags": [],
+      "allergens": []
+    },
+    {
+      "id": "prod_23",
+      "categoryId": "cat_6",
+      "name": "Taze Sıkılmış Portakal Suyu",
+      "description": "Taze portakallardan sıkılmış doğal meyve suyu",
+      "price": 55.00,
+      "image": "/images/portakal-suyu.jpg",
+      "active": true,
+      "tags": ["Taze", "Doğal"],
+      "allergens": []
+    },
+    {
+      "id": "prod_24",
+      "categoryId": "cat_6",
+      "name": "Ayran",
+      "description": "Ev yapımı taze ayran",
+      "price": 25.00,
+      "image": "/images/ayran.jpg",
+      "active": true,
+      "tags": ["Ev Yapımı"],
+      "allergens": ["Süt"]
+    }
+  ]
+}

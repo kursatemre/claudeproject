@@ -1,0 +1,81 @@
+.menu-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  color: var(--white);
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background-color: var(--white);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-info h1 {
+  font-size: 36px;
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slogan {
+  font-size: 16px;
+  margin: 0;
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu-header {
+    padding: 30px 20px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .restaurant-info h1 {
+    font-size: 28px;
+  }
+
+  .slogan {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-header {
+    padding: 20px 15px;
+  }
+
+  .logo-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .restaurant-info h1 {
+    font-size: 24px;
+  }
+
+  .slogan {
+    font-size: 13px;
+  }
+}

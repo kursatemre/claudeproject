@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "username": "admin",
+      "passwordHash": "$2a$10$8K1p/a0dL3LqgoWVpq0fKe7xZyxjLpXV.rLUgqKKxq8hFzH1Q2VzC",
+      "email": "admin@balikhardal.com",
+      "role": "admin",
+      "fullName": "Yönetici",
+      "createdAt": "2025-01-01T00:00:00Z"
+    }
+  ]
+}
