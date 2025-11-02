@@ -200,18 +200,28 @@ Proje, aşağıdaki örnek verilerle birlikte gelir:
 
 ## 🚀 Production Deployment
 
-### Backend
-```bash
-cd backend
-npm start
-```
+⚠️ **Önemli**: Bu proje hem backend hem frontend içerir. Ayrı ayrı deploy edilmelidir.
 
-### Frontend
-```bash
-cd frontend
-npm run build
-npm run preview
-```
+### Detaylı Deployment Rehberi
+
+[DEPLOYMENT.md](./DEPLOYMENT.md) dosyasına bakın. Özet:
+
+1. **Backend**: Render.com, Railway veya Heroku'ya deploy et
+2. **Frontend**: Vercel'e deploy et ve `VITE_API_URL` environment variable'ı ayarla
+3. **CORS**: Backend'de frontend URL'ini whitelist'e ekle
+
+### Hızlı Başlangıç
+
+**Backend (Render.com):**
+- Root Directory: `backend`
+- Build Command: `npm install`
+- Start Command: `npm start`
+- Environment Variables: `NODE_ENV`, `JWT_SECRET`, `FRONTEND_URL`
+
+**Frontend (Vercel):**
+- `vercel.json` zaten yapılandırılmış
+- Environment Variable: `VITE_API_URL=https://your-backend-url.com/api`
+- Otomatik deploy için git push yapın
 
 ## 📝 Gelecek Özellikler
 
